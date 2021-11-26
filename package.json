@@ -1,0 +1,27 @@
+{
+  "name": "pokemen",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "test": "cypress open"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.6.2",
+    "axios": "^0.24.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-query": "^3.33.5",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^5.3.0",
+    "twind": "^0.16.16"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.0.0",
+    "cypress": "^9.1.0",
+    "har-validator": "^5.1.5",
+    "prettier": "^2.4.1",
+    "vite": "^2.6.4"
+  }
+}
